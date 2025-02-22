@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7; /* Dark gray */
+    border-radius: 2px;
+}
+
+.loader {
+    border: 4px solid rgba(0, 0, 0, .1);
+    border-left-color: transparent;
+    border-radius: 50%;
+}
+  
+.loader {
+  border: 4px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+}
+
+.loader {
+  border: 4px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#root {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
