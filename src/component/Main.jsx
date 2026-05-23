@@ -45,7 +45,7 @@ function Main() {
                 </div>
                 :
                 <div className='p-[5%] md:p-[10%] flex flex-col items-end custom-scrollbar overflow-y-scroll'>
-                    <div className='my-3 px-6 py-2 bg-gray-300 rounded-full'>
+                    <div className='my-3 px-6 py-4 bg-gray-300 rounded-3xl'>
                         <p>{recentPrompt}</p>
                     </div>
                     <div className='pb-[200px] md:pb-[100px] self-start flex flex-col justify-start items-start gap-2'>
